@@ -33,5 +33,10 @@ img {
 @media screen and (min-width: var.$large) {
   .projects {
     padding-bottom: 4rem;
+    height: 100vh;
+
+    h2 {
+      padding: 6rem 0 0;
+    }
   }
 }

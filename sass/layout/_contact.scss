@@ -1,0 +1,7 @@
+@use '../abstracts/mixins';
+
+.contact {
+  height: calc(100vh - 72px);
+  @include mixins.flex-center;
+  text-align: center;
+}
