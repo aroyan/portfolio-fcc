@@ -1,0 +1,37 @@
+@use '../abstracts/mixins';
+@use '../abstracts/variables' as var;
+
+.projects {
+  background: tomato;
+  text-align: center;
+
+  h2 {
+    padding: 2rem 0;
+  }
+}
+
+.projects-container {
+  @include mixins.flex-center;
+  gap: 1rem;
+  margin: 0 1rem;
+}
+
+.card {
+  display: block;
+  background: #fff;
+  min-width: calc(375px - 2rem);
+  max-width: calc(100% / 4);
+  margin-bottom: 2rem;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  aspect-ratio: 1/1;
+}
+
+@media screen and (min-width: var.$large) {
+  .projects {
+    padding-bottom: 4rem;
+  }
+}

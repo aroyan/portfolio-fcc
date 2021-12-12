@@ -1,0 +1,7 @@
+@use '../abstracts/mixins';
+
+.welcome {
+  height: 100vh;
+  @include mixins.flex-center;
+  text-align: center;
+}
