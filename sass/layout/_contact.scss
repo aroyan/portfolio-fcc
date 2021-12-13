@@ -5,3 +5,14 @@
   @include mixins.flex-center;
   text-align: center;
 }
+
+.contact-text {
+  > a {
+    > svg {
+      margin: 0 auto;
+      &:hover {
+        fill: deepskyblue;
+      }
+    }
+  }
+}

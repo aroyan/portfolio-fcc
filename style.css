@@ -256,4 +256,11 @@ img {
   text-align: center;
 }
 
+.contact-text > a > svg {
+  margin: 0 auto;
+}
+.contact-text > a > svg:hover {
+  fill: deepskyblue;
+}
+
 /*# sourceMappingURL=style.css.map */
